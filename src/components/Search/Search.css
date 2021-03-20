@@ -1,0 +1,47 @@
+.search-area{
+    background-color: tomato;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.field{
+    margin: 5px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightgray !important;
+}
+.field:focus{
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid lightgray !important;
+}
+.destination{
+    background: #EFEFEF;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.submit-btn{
+    margin-top: 30px;
+    color: white;
+}
+.text-area{
+    background: tomato;
+    border-left: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.text-area h4{
+    color: white;
+}
+.details-area{
+    background: white;
+    border-radius: 10px;
+    padding: 0 5px;
+    margin: 10px 0px;
+}
+.vehical-img{
+    width: 35%;
+}

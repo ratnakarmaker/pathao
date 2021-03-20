@@ -13,6 +13,6 @@ const pathao =  [{
   }, {
     "id": "4",
     "name": "Train",
-    "image": "https://lh3.googleusercontent.com/proxy/0SCgBv3GTyQ3YtSqWhv83uMCUomIY_dxDDDHX_M62-gGblBlSWvxsV45q9LfYZHzowKFBKwQF0DYW76_NZ5Bg4s"
+    "image": "https://www.pngkey.com/png/full/262-2622191_train-rail-transport-steam-locomotive-clip-art-train.png"
   }]
   export default pathao;

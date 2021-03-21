@@ -6,6 +6,8 @@ import { UserContext } from '../../App';
 import { useHistory, useLocation } from 'react-router';
 import "./Login.css";
 import { Button } from "react-bootstrap";
+import fb from "./images/facebook.png";
+import google from "./images/google.png";
 
 const Login = () => {
     const [newUser, setNewUser] = useState(false);
@@ -146,8 +148,8 @@ const Login = () => {
                             {user.success && <p style={{ color: 'green' }}>User {newUser ? 'created' : 'Logged In'} Successfully</p>}
                             <br />
                             <hr />
-                            <Button variant="warning" className="submit-btn" onClick={handleFacebookSignIn}>Continue With Facebook</Button>
-                            <Button variant="warning" className="submit-btn" onClick={handleGoogleSignIn}>Continue With Google</Button>
+                            <Button variant="warning" className="submit_btn" onClick={handleFacebookSignIn}><img src={fb} alt=""/> Continue With Facebook</Button>
+                            <Button variant="warning" className="submit_btn" onClick={handleGoogleSignIn}><img src={google} alt=""/> Continue With Google</Button>
                         </div>
                     </div>
                 </div>

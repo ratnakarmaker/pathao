@@ -22,7 +22,15 @@
     border: 1px solid tomato;
     border-radius: 5px;
 }
-.submit-btn{
+.submit_btn{
     width: 100%;
     margin: 10px 0px;
+    text-align: center;
+    position: relative;
+    padding: 15px 10px;
+}
+.submit_btn img{
+    position: absolute;
+    left: 5px;
+    top: 10px;
 }

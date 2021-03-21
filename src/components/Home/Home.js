@@ -5,18 +5,18 @@ import Vehicles from '../Vehicles/Vehicles';
 const Home = () => {
     const fake4 = fakeData;
     const [transport, setTransport] = useState(fake4);
-    const [club, setClub] = useState([]);
+    const [cart, setCart] = useState([]);
 
     const handleAddVehicle = (fakeData) => {
-        const newClub = [...club, fakeData];
-        setClub(newClub);
+        const newCart = [...cart, fakeData];
+        setCart(newCart);
     }
     useEffect (() => {
         setTransport(fakeData)
     }, [])
 
     return (
-        <div className="transport-container">
+        <div className="transport-container mt-5">
             <div className="vehicle">
                 <div className="row w-100 d-flex justify-content-center">
                     {

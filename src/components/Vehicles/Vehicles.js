@@ -6,15 +6,14 @@ import { Link } from 'react-router-dom';
 const Vehicles = (props) => {
     const { name, image, id } = (props.transport)
     return (
-            <Card className="vehicle-card" >
-                    <Card.Img variant="top" src={image} className="vehicle_img" />
-                    <Card.Body>
-                        <Card.Title> {name}</Card.Title>
-                        
-                        <Link to={`/search/${id}`}><button>Next</button></Link>
-
-                    </Card.Body>
-                </Card>
+        <Link to={`/search/${id}`}>
+            <Card className="h-100 d-flex align-items-center vehicle-card" >
+                <Card.Img variant="top" src={image} className="vehicle_img" />
+                <Card.Body className="d-flex align-items-center">
+                    <Card.Title className="text-center"> {name}</Card.Title>
+                </Card.Body>
+            </Card>
+        </Link>
     );
 };
 

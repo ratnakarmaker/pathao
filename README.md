@@ -8,7 +8,6 @@ Live project link: [Pathao](https://pathao-e65eb.web.app//)
 Pathao
 
 ## Technology :
-* Bootstrap4
 * CSS3
 * React.js
 * React Boostrap
@@ -16,10 +15,10 @@ Pathao
 
 
 ## Features:
-A Ride Shareing website.....
-Google sign in, Facebook sign in, Email & Password Sign in
-Authenticated user can call a rider for go to his destination.
-User can get search his area in google map
+* A Ride Shareing website.....
+* Google sign in, Facebook sign in, Email & Password Sign in
+* Authenticated user can call a rider for go to his destination.
+* User can get search his area in google map
 
 
 ## Thanks for visit my site.
